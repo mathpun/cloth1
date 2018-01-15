@@ -29,7 +29,7 @@ var classification = function (spec,my) {
 	var super_check_survey = my.superior('check_survey');
 
 	// PARAMETERS
-	my.feedback_on = true; // display feedback after each trial?
+	my.feedback_on = false; // display feedback after each trial?
 	my.random_choices = false; // randomize order of training image choices?
 	my.size_img  = 200; // size of the images
 
@@ -64,8 +64,8 @@ var classification = function (spec,my) {
 	my.div_header = 'header';
 
 	// messages
-	my.msg_correct = '<font size="5"><font color="#FF1493">You got it!</font>';
-	my.msg_incorrect = '<font size="5"><font color="#FF1493">Sorry! The right answer is shown in </font><font size="5" color="blue">blue</font>';
+	my.msg_correct = '<font size="5"><font color="#FF1493">Yay!</font>';
+	my.msg_incorrect = '<font size="5"><font color="#FF1493">Yay!</font>';
 
 	// css classes
 	my.css_cell_type = 'bordered_cell';
